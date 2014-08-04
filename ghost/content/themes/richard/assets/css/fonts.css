@@ -1,0 +1,119 @@
+/* ======================================================= */
+/*                                                         */
+/*                                                         */
+/*    Richard McCartney                                    */
+/*                                                         */
+/*                                                         */
+/* ======================================================= */
+/*
+/*
+/*    Development by Richard McCartney
+/*    http://www.richardmccartney.co.uk
+/*
+/*    Font Style Sheet v1.0
+/*    Created by Richard McCartney
+/*
+/*
+/* ======================================================= */
+
+@font-face {
+	font-family: 'Source sans pro';
+    src: url('../fonts/sourcesanspro-lightit.eot');
+    src: url('../fonts/sourcesanspro-lightit.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-lightit.woff') format('woff'),
+         url('../fonts/sourcesanspro-lightit.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-lightit.svg#source_sans_prolight_italic') format('svg');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'Source sans pro';
+    src: url('../fonts/sourcesanspro-regular.eot');
+    src: url('../fonts/sourcesanspro-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regular.woff') format('woff'),
+         url('../fonts/sourcesanspro-regular.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-regular.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source sans pro';
+    src: url('../fonts/sourcesanspro-light.eot');
+    src: url('../fonts/sourcesanspro-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-light.woff') format('woff'),
+         url('../fonts/sourcesanspro-light.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-light.svg#source_sans_prolight') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source sans pro';
+    src: url('../fonts/sourcesanspro-bold.eot');
+    src: url('../fonts/sourcesanspro-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-bold.woff') format('woff'),
+         url('../fonts/sourcesanspro-bold.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-bold.svg#source_sans_probold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source sans pro';
+    src: url('../fonts/sourcesanspro-it.eot');
+    src: url('../fonts/sourcesanspro-it.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-it.woff') format('woff'),
+         url('../fonts/sourcesanspro-it.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-it.svg#source_sans_proitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'Source sans pro';
+    src: url('../fonts/sourcesanspro-boldit.eot');
+    src: url('../fonts/sourcesanspro-boldit.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-boldit.woff') format('woff'),
+         url('../fonts/sourcesanspro-boldit.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-boldit.svg#source_sans_probold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2b8a14");
+
+
+@font-face {
+	font-family: 'IndustryInc-Base';
+	src: url('../fonts/2B8A14_0_0.eot');
+	src: url('../fonts/2B8A14_0_0.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/2B8A14_0_0.woff') format('woff'),
+		 url('../fonts/2B8A14_0_0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Vitesse-web';
+	src: url('../fonts/Vitesse-Book.eot');
+	src: url('../fonts/Vitesse-Book.eot?iefix') format('eot'),
+	     url('../fonts/Vitesse-Book.woff') format('woff'),
+	     url('../fonts/Vitesse-Book.ttf') format('truetype'),
+	     url('../fonts/Vitesse-Book.svg#Vitesse-Book') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Vitesse-web';
+	src: url('../fonts/Vitesse-Medium.eot');
+	src: url('../fonts/Vitesse-Medium.eot?iefix') format('eot'),
+	     url('../fonts/Vitesse-Medium.woff') format('woff'),
+	     url('../fonts/Vitesse-Medium.ttf') format('truetype'),
+	     url('../fonts/Vitesse-Medium.svg#Vitesse-Medium') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}

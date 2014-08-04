@@ -1,0 +1,61 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+<header class="header">
+    <h1 class="logo">
+        <a href="/">
+            {{@blog.title}}
+        </a>
+    </h1>
+    <ul class="social">
+        <li>
+            <a href="http://twitter.com/rich_mccartney">Twitter</a>
+        </li>
+        <li>
+            <a href="http://github.com/richmccartney">GitHub</a>
+        </li>
+        <li>
+            <a href="http://dribbble.com/richmccartney">Dribbble</a>
+        </li>
+        <li>
+            <a href="http://instagram.com/richmccartney">Instagram</a>
+        </li>
+    </ul>
+</header>
+
+{{! The big featured header on the homepage, with the site logo and description }}
+<section class="intro">
+    <h1>Filter: {{tag.name}}</h1>
+</section>
+
+{{! The main content area on the homepage }}
+<main class="content" role="main">
+
+    {{! Each post will be output using this markup }}
+    {{#foreach posts}}
+
+    <article class="post">
+        <header>
+            <span class="post-meta">
+                <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}{{date format="MMM YYYY"}}</time> {{tags prefix="on "}}
+            </span>
+            <h2>
+                <a href="{{url}}">{{{title}}}</a>
+            </h2>
+        </header>
+        <section class="excerpt">
+            <p>{{excerpt}}&hellip;</p>
+        </section>
+        <footer>
+            <a href="{{url}}">Continue reading</a>
+        </footer>
+    </article>
+
+    {{/foreach}}
+
+    {{!! After all the posts, we have the previous/next pagination links }}
+    {{pagination}}
+
+</main>

@@ -1,0 +1,207 @@
+/* ======================================================= */
+/*                                                         */
+/*                                                         */
+/*    Richard McCartney                                    */
+/*                                                         */
+/*                                                         */
+/* ======================================================= */
+/*
+/*
+/*    Development by Richard McCartney
+/*    http://www.richardmccartney.co.uk
+/*
+/*    Mobile Style Sheet v1.0
+/*    Created by Richard McCartney
+/*
+/*
+/* ======================================================= */
+
+@media screen and (max-width: 2560px) {
+
+	.content,
+	.post-page .content {
+		max-width: 1440px;
+	}
+
+}
+
+@media screen and (max-width: 1680px) {
+
+	.content,
+	.post-page .content {
+		max-width: 1280px;
+	}
+
+}
+
+/* 1024px breakpoint
+------------------------------------------------------------ */
+
+@media screen and (max-width: 1024px) {
+
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 26px;
+		margin-bottom: 40px;
+	}
+
+	h3 {
+		font-size: 20px;
+		margin-bottom: 24px;
+	}
+
+	h4 {
+		font-size: 16px;
+		margin-bottom: 24px;
+	}
+
+	h5 {
+		font-size: 16px;
+		margin-bottom: 24px;
+	}
+
+	.intro {
+		padding-bottom: 60px;
+		margin-bottom: 100px;
+	}
+
+	.post-meta time {
+		font-size: 10px;
+	}
+
+	.post-meta span {
+		font-size: 30px;
+	}
+
+}
+
+/* 768px breakpoint
+------------------------------------------------------------ */
+
+@media screen and (max-width: 768px) {
+
+	.header,
+	.intro,
+	.content,
+	.post-page .content {
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-bottom: 40px;
+	}
+
+	.intro {
+		margin-bottom: 60px;
+	}
+
+	.back {
+		display: none;
+	}
+
+	.intro {
+		text-align: center;
+	}
+
+	.intro h1 {
+		margin-bottom: 10px;
+	}
+
+	.intro h4 {
+		font-size: 14px;
+	}
+
+	.post h2 {
+		width: 70%;
+		padding-left: 5%;
+	}
+
+	.post-page .intro {
+		text-align: left;
+	}
+
+	.post-page .intro h1 {
+		width: 100%;
+		margin: 0;
+	}
+
+	.post-meta {
+		width: 25%;
+	}
+
+	.post-page .post-meta {
+		max-width: none;
+		position: relative;
+		width: 100%;
+	}
+
+	.post-meta a {
+		display: none;
+	}
+
+	.excerpt {
+		width: 100%;
+	}
+
+	.pagination {
+		font-size: 10px;
+	}
+
+	.about {
+		padding: 60px 40px;
+	}
+
+	.copy {
+		padding: 20px 40px;
+	}
+
+	.copy p {
+		line-height: 45px;
+	}
+}
+
+/* 420px breakpoint
+------------------------------------------------------------ */
+
+@media screen and (max-width: 420px) {
+
+	p,
+	ol li,
+	ul li {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.pagination a,
+	.pagination a:hover {
+		color: transparent;
+	}
+
+	.logo {
+		background-image:  url(../images/logo-hover.png);
+		background-image:  url(../images/logo-hover.svg), none;
+		left: 50%;
+		margin-left: -37.5px;
+		-webkit-background-size: 50px 75px;
+		background-size: 50px 75px;
+		background-position: top center;
+	}
+
+	.header .social {
+		width: 100%;
+		text-align: center;
+		top: 120px;
+	}
+
+	.header .social li {
+		margin: 0 10px;
+	}
+
+	.post h2 {
+		padding: 0;
+		width: 100%;
+	}
+
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    {{! Document Settings }}
+    <meta charset="utf-8" />
+
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" href="{{asset "images/favicon.png"}}">
+
+    {{! Styles'n'Scripts }}
+    <link rel="stylesheet" type="text/css" href="{{asset "css/reset.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/fonts.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/styles.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/mobile.css"}}" />
+
+    <!--[if lte IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+</head>
+<body class="{{body_class}}">
+
+    {{! Everything else gets inserted here }}
+    {{{body}}}
+
+    <footer class="footer">
+        <section class="about">
+            <img src="http://www.gravatar.com/avatar/a197ebdc08266d52b7ed8b3a93add232?s=400" alt="me">
+            <h2>Designer <span>&amp; &lt;/developer&gt;</span></h2>
+            <p>{{@blog.description}}</p>
+        </section>
+        <section class="copy">
+            <p>All content copyright <a href="{{@blog.url}}/">{{@blog.title}}</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.</p>
+        </section>
+    </footer>
+
+    {{! Ghost outputs important scripts and data with this tag }}
+    {{ghost_foot}}
+
+</body>
+</html>
